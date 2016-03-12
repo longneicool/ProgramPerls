@@ -5,3 +5,7 @@ CONFIG -= qt
 
 SOURCES += main.cpp
 
+QMAKE_CXXFLAGS += -std=gnu++0x
+
+HEADERS += \
+    binary_search.h
